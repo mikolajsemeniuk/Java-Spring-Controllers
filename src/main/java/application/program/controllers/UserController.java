@@ -58,7 +58,11 @@ public class UserController {
     }
 
     @PatchMapping
-    public String UpdateUser() { return "update user"; }
+    public String UpdateUser() {
+        String s = null;
+        s.length();
+        return "update user";
+    }
 
     @DeleteMapping
     public String RemoveUser() { return "remove user"; }
